@@ -15,14 +15,14 @@ export function Header () {
 		</Link>
 		<ul className='header__list'>
 			<li className='header__list_basket'>
-				<img src="img/basket.svg" alt="" />
+				<Link to='/'><img src="img/basket.svg" alt="" /></Link>
 				<p>1205 руб.</p>
 			</li>
 			<li>
-				<img src="img/hearth.svg" alt="" />
+				<Link to='/'><img src="img/hearth.svg" alt="" /></Link>
 			</li>
 			<li>
-				<img src="img/User.svg" alt="" />
+				<Link to='/'><img src="img/User.svg" alt="" /></Link>
 			</li>
 		</ul>
 	</div>
