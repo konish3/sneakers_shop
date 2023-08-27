@@ -1,0 +1,36 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #eaeaea;
+	padding: 40px;
+	img {
+		margin-right: 15px;
+	}
+	&__title {
+		color: black;
+		h3 {
+			text-transform: uppercase;
+			font-size: 20px;
+			line-height: 24px;
+			display: inline;
+		}
+		p {
+			opacity: 0.6;
+		}
+	}
+	&__list {
+		display: flex;
+		&_basket {
+			display: flex;
+			align-items: center;
+			margin-right: 30px;
+			p {
+				
+			}
+		}
+	}
+}
+.logo {
+	display: flex;
+}
